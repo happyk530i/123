@@ -1,0 +1,167 @@
+*{margin: 0;padding: 0;}
+body{
+  background-color: #fef9d7;
+  
+}
+#controller1{
+width: 750px;
+  
+  
+}
+
+#controller1 div{
+  margin-left: 50px;
+  margin-bottom: 100px;
+
+}
+
+#controller1 p{
+  position: absolute;
+  width:200px;
+  float: left;
+  color:black;
+  font-size: 14px;
+  z-index:99;
+  
+}
+#controller2{
+  width: 750px;
+  
+  
+}
+
+#controller2 div{
+  margin-left: 50px;
+  margin-bottom: 100px;
+
+}
+
+#controller2 p{
+  position: absolute;
+  width:250px;
+  float: left;
+  color:black;
+  font-size: 14px;
+  
+}
+#controller3{
+  width: 750px;
+  
+  
+}
+
+#controller3 div{
+  margin-left: 50px;
+  margin-bottom: 100px;
+
+}
+
+#controller3 p{
+  position: absolute;
+  width:250px;
+  float: left;
+  color:black;
+  font-size: 14px;
+  
+}
+
+#run{
+  top:0%;
+  width:100%;
+   height:168px;
+     position: relative;
+     overflow:hidden;
+     z-index: 1;
+  /* 跑馬燈最大長度 */
+}
+#run ul{
+  left:0;
+   top:0;
+   position:absolute;
+}  /*相對於img 沒有空隙 */
+#run ul li{
+  background-size: cover;
+  /* 如果超出圖片大小cover住 */
+  float:left;        /*跑馬燈圖片下左浮動 */
+   list-style:none;     /*   li會有結點 隱藏 */
+   width:257px;                /*每張圖的長與寬 */
+   height:168px;
+}
+#s1{
+  font-size: 25px;
+  background-color:#e2d1c3;
+  background-position:top;
+  background-repeat:repeat-x;
+
+} 
+/* 改海賊王周邊商品字大小 */
+.navbar-nav ul li { 
+  position: relative;
+  float: left;
+}
+.navbar-nav ul  #login{ 
+  left: 15%;
+  position: relative;
+}
+.navbar-nav ul #imgg{
+  width:30px;
+ height:30px;
+ left: 350%;
+ position: relative;
+}
+/*距離不要靠太近*/
+.navbar-nav ul  #register{ 
+  position: relative;
+  left: 35%;
+}
+@media (min-width: 990px) {
+  .navbar-nav ul  #login{ 
+    left: 240%;
+    position: relative;
+  }
+
+  .navbar-nav ul  #register{ 
+    position: relative;
+    left: 300%;
+  }
+  }  /*距離不要靠太近*/
+.text-primary{
+color:black!important;
+}
+h1{
+  color:black!important;
+  font-size: 30px!important;
+}
+/* p{
+  color:black!important;
+  font-size: 18px!important;
+} */
+.col-3 number-button{
+  float: left;
+}
+.carousel-item{
+
+  padding: 5%;
+}
+.carousel-control-prev-icon, .carousel-control-next-icon {
+  height: 100px;
+  width: 100px;
+  outline: black;
+  background-color: rgba(0, 0, 0, 0.3);
+  background-size: 100%, 100%;
+  border-radius: 50%;
+  border: 1px solid rgb(226, 56, 161);
+}
+#login3{
+
+  font-size: 30px;
+  color :black;
+}
+#ordertest1{
+padding-left: 200px;
+border: 1px solid black;
+background-color: blanchedalmond;
+}
+
+
+

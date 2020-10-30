@@ -1,0 +1,41 @@
+@charset "utf-8";
+*{margin:0; padding:0;} 
+#img {width:900px; height:170px; margin:20px auto; position:relative;overflow:hidden; }
+#img ul{position:absolute; left:0; top:0; }  /*相對於img 沒有空隙 */
+#img ul li{float:left;list-style:none;width:300px; height:170px;  }   /* 每張圖給予的大小,隱藏節點*/
+#imgbackground{   
+    background:url("original.gif");
+
+     background-size: 100% 100% ; 
+     
+    background-position: bottom;}
+#table1 {border-collapse: collapse;margin-left: auto;margin-right: auto;font-style: inherit; }
+
+#table1,th {text-align: center;background: yellow; }
+.test1 {width: 300px;height: 130px; }
+h2{color: red; z-index: 88;}
+li {list-style:none; }
+#table2{
+    width:1300px;
+    height:500px;
+    position:absolute;
+    background:palegreen;
+    margin: 5px;
+
+}
+video#bgvid { 
+    position: fixed;
+    top: 50%;
+    left: 50%;
+    min-width: 100%;
+    min-height: 100%;
+    width: auto;
+    height: auto;
+    z-index: -100;
+    -ms-transform: translateX(-50%) translateY(-50%);
+    -moz-transform: translateX(-50%) translateY(-50%);
+    -webkit-transform: translateX(-50%) translateY(-50%);
+    transform: translateX(-50%) translateY(-50%);
+    /* background: url(polina.jpg) no-repeat; */
+    background-size: cover; 
+}
